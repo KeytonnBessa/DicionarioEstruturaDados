@@ -20,6 +20,56 @@ namespace DicionarioEstrutura
         {
             root = InsertRec(root, key, value);
         }
+        public List<string> GetInOrder()
+        {
+            var list = new List<string>();
+            GetInOrderRec(root, list);
+            return list;
+        }
+
+        private void GetInOrderRec(Node root, List<string> list)
+        {
+            if (root != null)
+            {
+                GetInOrderRec(root.Left, list);
+                list.Add(root.Key + " - " + root.Value);
+                GetInOrderRec(root.Right, list);
+            }
+        }
+
+        public List<string> GetPreOrder()
+        {
+            var list = new List<string>();
+            GetPreOrderRec(root, list);
+            return list;
+        }
+
+        private void GetPreOrderRec(Node root, List<string> list)
+        {
+            if (root != null)
+            {
+                list.Add(root.Key + " - " + root.Value);
+                GetPreOrderRec(root.Left, list);
+                GetPreOrderRec(root.Right, list);
+            }
+        }
+
+        public List<string> GetPostOrder()
+        {
+            var list = new List<string>();
+            GetPostOrderRec(root, list);
+            return list;
+        }
+
+        private void GetPostOrderRec(Node root, List<string> list)
+        {
+            if (root != null)
+            {
+                GetPostOrderRec(root.Left, list);
+                GetPostOrderRec(root.Right, list);
+                list.Add(root.Key + " - " + root.Value);
+            }
+        }
 
         private Node InsertRec(Node root, string key, string value)
         {
