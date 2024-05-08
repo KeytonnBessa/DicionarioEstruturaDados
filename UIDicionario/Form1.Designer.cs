@@ -176,6 +176,7 @@
             MaximizeBox = false;
             Name = "Form1";
             ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Dicionario Arretado - Expressões nordestinas";
             Load += Form1_Load;
             ResumeLayout(false);
