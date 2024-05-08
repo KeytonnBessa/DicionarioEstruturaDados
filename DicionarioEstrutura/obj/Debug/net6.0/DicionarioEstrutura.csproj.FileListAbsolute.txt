@@ -1,0 +1,12 @@
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\bin\Debug\net6.0\DicionarioEstrutura.deps.json
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\bin\Debug\net6.0\DicionarioEstrutura.dll
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\bin\Debug\net6.0\DicionarioEstrutura.pdb
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.csproj.AssemblyReference.cache
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.AssemblyInfoInputs.cache
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.AssemblyInfo.cs
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.csproj.CoreCompileInputs.cache
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.dll
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\refint\DicionarioEstrutura.dll
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\DicionarioEstrutura.pdb
+C:\Users\ADM\source\repos\DicionarioEstrutura\DicionarioEstrutura\obj\Debug\net6.0\ref\DicionarioEstrutura.dll
