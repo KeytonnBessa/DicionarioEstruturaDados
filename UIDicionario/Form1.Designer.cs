@@ -43,52 +43,62 @@
             // 
             // buttonInserir
             // 
+            buttonInserir.BackColor = Color.FromArgb(255, 192, 128);
+            buttonInserir.FlatStyle = FlatStyle.Flat;
             buttonInserir.Location = new Point(587, 57);
             buttonInserir.Name = "buttonInserir";
             buttonInserir.Size = new Size(75, 23);
             buttonInserir.TabIndex = 0;
             buttonInserir.Text = "Inserir";
-            buttonInserir.UseVisualStyleBackColor = true;
+            buttonInserir.UseVisualStyleBackColor = false;
             buttonInserir.Click += buttonInserir_Click;
             // 
             // ButtonRemover
             // 
+            ButtonRemover.BackColor = Color.FromArgb(255, 192, 128);
+            ButtonRemover.FlatStyle = FlatStyle.Flat;
             ButtonRemover.Location = new Point(677, 58);
             ButtonRemover.Name = "ButtonRemover";
             ButtonRemover.Size = new Size(75, 23);
             ButtonRemover.TabIndex = 0;
             ButtonRemover.Text = "Remover";
-            ButtonRemover.UseVisualStyleBackColor = true;
+            ButtonRemover.UseVisualStyleBackColor = false;
             ButtonRemover.Click += ButtonRemover_Click;
             // 
             // buttonOrder
             // 
+            buttonOrder.BackColor = Color.FromArgb(255, 192, 128);
+            buttonOrder.FlatStyle = FlatStyle.Flat;
             buttonOrder.Location = new Point(515, 214);
             buttonOrder.Name = "buttonOrder";
             buttonOrder.Size = new Size(75, 23);
             buttonOrder.TabIndex = 0;
             buttonOrder.Text = "Ordem";
-            buttonOrder.UseVisualStyleBackColor = true;
+            buttonOrder.UseVisualStyleBackColor = false;
             buttonOrder.Click += buttonOrder_Click;
             // 
             // buttonPreOrder
             // 
+            buttonPreOrder.BackColor = Color.FromArgb(255, 192, 128);
+            buttonPreOrder.FlatStyle = FlatStyle.Flat;
             buttonPreOrder.Location = new Point(515, 185);
             buttonPreOrder.Name = "buttonPreOrder";
             buttonPreOrder.Size = new Size(75, 23);
             buttonPreOrder.TabIndex = 0;
             buttonPreOrder.Text = "PreOrdem";
-            buttonPreOrder.UseVisualStyleBackColor = true;
+            buttonPreOrder.UseVisualStyleBackColor = false;
             buttonPreOrder.Click += buttonPreOrder_Click;
             // 
             // buttonPostOrder
             // 
+            buttonPostOrder.BackColor = Color.FromArgb(255, 192, 128);
+            buttonPostOrder.FlatStyle = FlatStyle.Flat;
             buttonPostOrder.Location = new Point(515, 243);
             buttonPostOrder.Name = "buttonPostOrder";
             buttonPostOrder.Size = new Size(75, 23);
             buttonPostOrder.TabIndex = 0;
             buttonPostOrder.Text = "PosOrdem";
-            buttonPostOrder.UseVisualStyleBackColor = true;
+            buttonPostOrder.UseVisualStyleBackColor = false;
             buttonPostOrder.Click += buttonPostOrder_Click;
             // 
             // listBoxPalavras
@@ -102,6 +112,7 @@
             // 
             // textBoxKey
             // 
+            textBoxKey.BackColor = Color.White;
             textBoxKey.Location = new Point(236, 58);
             textBoxKey.Name = "textBoxKey";
             textBoxKey.Size = new Size(258, 23);
@@ -117,12 +128,14 @@
             // 
             // buttonBuscarBinario
             // 
+            buttonBuscarBinario.BackColor = Color.FromArgb(255, 192, 128);
+            buttonBuscarBinario.FlatStyle = FlatStyle.Flat;
             buttonBuscarBinario.Location = new Point(506, 57);
             buttonBuscarBinario.Name = "buttonBuscarBinario";
             buttonBuscarBinario.Size = new Size(75, 23);
             buttonBuscarBinario.TabIndex = 4;
             buttonBuscarBinario.Text = "Buscar";
-            buttonBuscarBinario.UseVisualStyleBackColor = true;
+            buttonBuscarBinario.UseVisualStyleBackColor = false;
             buttonBuscarBinario.Click += buttonBuscarBinario_Click;
             // 
             // labelValue
@@ -130,9 +143,9 @@
             labelValue.AutoSize = true;
             labelValue.Location = new Point(236, 95);
             labelValue.Name = "labelValue";
-            labelValue.Size = new Size(128, 15);
+            labelValue.Size = new Size(149, 15);
             labelValue.TabIndex = 5;
-            labelValue.Text = "Significado (definition)";
+            labelValue.Text = "Significado (apenas inserir)";
             // 
             // labelKey
             // 
